@@ -4,7 +4,8 @@ const pasisveikinimas = "Labas rytas, Lietuva!";
 
 // do not -> don't;
 
-const neiginys = "don't";
+//const neiginys = "don't";
+const neiginys = 'don\'t';
 console.log(neiginys);
 
 //Jis pasake: "Labas".
