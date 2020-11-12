@@ -130,3 +130,15 @@ for (let i = step - 1; i < zodis.length; i=i+step) {
     rez = rez + raide;
 }
 console.log(rez);
+
+const word = 'kalakutas';
+const step2 = 3;
+const firstLetterPos = step2 -1;
+let output = '';
+
+for (let i = step2 - 1; i < word.length; i=i+step2) {
+    const letter = word[i];
+    console.log(letter);
+    output = output + letter;
+}
+console.log(output);
