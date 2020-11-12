@@ -45,12 +45,12 @@ console.log('Pirmas bandymas baigtas. Kas toliau?');
 const akys2 = 'zalios';
 
 if (akys2 == 'melynos') {
-    console.log('Grazios sirdies zmogus');
+    console.log('Grazios sirdies zmogus ❤️');
 } else {
     if (akys2 == 'zalios') {
-        console.log('Melagiai...❤️');
+        console.log('Melagiai...');
     } else if (akys2 == 'raudonos') {
-        console.log('Programuotojas');
+        console.log('Programuotojas 😃');
     } else {
         console.log('Ar tu turi akis?');
     };
@@ -71,4 +71,4 @@ if (pirmas === antras) {
 //     console.log(true);
 // } else {
 //     console.log(false);
-// }	
+// }
