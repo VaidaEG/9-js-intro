@@ -72,3 +72,10 @@ if (pirmas === antras) {
 // } else {
 //     console.log(false);
 // }
+
+/* Kintamieji
+Salygos funkcijos
+Ciklo funkcijos
+Funkcijos
+Event lisner'iai
+*/
