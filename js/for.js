@@ -69,3 +69,64 @@ for(let i=0; i<miestai.length; i++ ) {
     const miestoPavadinimas = miestai[i];
     console.log(`Aplankiau: ${miestoPavadinimas}`);
 }
+
+/*
+Isvardinti saraso narius is galo
+*/
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(abc);
+
+for (let i = abc.length - 1; i >= 0; i--) {
+    console.log(abc[i]);
+}
+
+console.clear();
+
+const text = 'dodekahedronas';
+
+console.log(text);
+
+console.log(text.length);
+
+for (let i=0; i < text.length; i++) {
+    console.log(text[i]);
+}
+
+const text1 = 'dodekahedronas';
+
+console.log(text1);
+
+console.log(text1.length);
+
+for (let i=0; i < text1.length; i++) {
+    console.log(text1[i]);
+}
+
+/*
+Duotas zodis ir is jo reikia isrinkti kas antra raide ir ispausdinti.
+Pvz.: abcdef -> bdf
+*/
+
+const text2 = 'orangutangas';
+console.log(text2);
+let atsakymas = '';
+
+for (let i=1; i < text2.length; i=i+2) {
+    const raide = text2[i];
+    atsakymas = atsakymas + raide;
+    console.log(raide);
+}
+console.log(atsakymas);
+
+const zodis = 'pomidoras';
+const step = 2;
+const pirmosRaidesPozicija = step -1;
+let rez = '';
+
+for (let i = step - 1; i < zodis.length; i=i+step) {
+    const raide = zodis[i];
+    console.log(raide);
+    rez = rez + raide;
+}
+console.log(rez);
