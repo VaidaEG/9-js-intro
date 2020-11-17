@@ -27,7 +27,7 @@ function laipsnis(base, power) {
     for (let i = 0; i < power; i++) {
         rez = rez * base;
     }
-    return rez
+    return rez;
 }
 const kubas2 = laipsnis(2, 3);
 console.log(kubas2, '->', 8);
@@ -38,7 +38,7 @@ console.log(du10, '->', 1024);
 const minus5 = laipsnis(-5, 3);
 console.log(minus5, '->', -125);
 
-function faktoringas(n) {
+function faktorialas(n) {
     let rez = 1;
     for (let i = 1; i <= n; i++) {
         rez = rez * i;
@@ -46,12 +46,12 @@ function faktoringas(n) {
     return rez;
 }
 
-const f0 = faktoringas(0);
-const f1 = faktoringas(1);
-const f2 = faktoringas(2);
-const f3 = faktoringas(3);
-const f4 = faktoringas(4);
-const f5 = faktoringas (5);
+const f0 = faktorialas(0);
+const f1 = faktorialas(1);
+const f2 = faktorialas(2);
+const f3 = faktorialas(3);
+const f4 = faktorialas(4);
+const f5 = faktorialas (5);
 
 console.log(f0, '->', 1);
 console.log(f1, '->', 1);
@@ -60,7 +60,7 @@ console.log(f3, '->', 6);
 console.log(f4, '->', 24);
 console.log(f5, '->', 120);
 
-function lyginisFaktoringas(n) {
+function lyginisfaktorialas(n) {
     let rez = 1;
     for (let i = 1; i <= n; i++) {
         if (i % 2 === 0) {
@@ -70,14 +70,14 @@ function lyginisFaktoringas(n) {
     return rez;
 }
 
-const lf0 = lyginisFaktoringas(0);
-const lf1 = lyginisFaktoringas(1);
-const lf2 = lyginisFaktoringas(2);
-const lf3 = lyginisFaktoringas(3);
-const lf4 = lyginisFaktoringas(4);
-const lf5 = lyginisFaktoringas(5);
-const lf6 = lyginisFaktoringas(6);
-const lf7 = lyginisFaktoringas(7);
+const lf0 = lyginisfaktorialas(0);
+const lf1 = lyginisfaktorialas(1);
+const lf2 = lyginisfaktorialas(2);
+const lf3 = lyginisfaktorialas(3);
+const lf4 = lyginisfaktorialas(4);
+const lf5 = lyginisfaktorialas(5);
+const lf6 = lyginisfaktorialas(6);
+const lf7 = lyginisfaktorialas(7);
 
 console.log(lf0, '->', 1);
 console.log(lf1, '->', 1);
