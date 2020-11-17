@@ -1,0 +1,12 @@
+console.log(multiply(8, 'labas'));
+console.log(multiply('labas', 'ate'));
+console.log(multiply('labas', true));
+console.log(multiply(87, true));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
+console.log(multiply(8, 'labas'));
