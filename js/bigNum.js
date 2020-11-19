@@ -58,11 +58,3 @@ console.log(bigNum(['labas', 1, 2, 3, 2, 1]), '->', 3);
 console.log(bigNum(['labas', 'labas', 'labas', 'labas', -99999999999999]), '->', -99999999999999);
 console.log(bigNum(['labas', 'labas', -99999999999999, 'labas', 'labas']), '->', -99999999999999);
 console.log(bigNum([-99999999999999, 'labas', 'labas', 'labas', 'labas']), '->', -99999999999999);
-
-function suma(a,b) {
-    return a + b;
-}
-console.log(bigNum(sum));
-console.log(bigNum([sum]));
-console.log(bigNum({}));
-console.log(bigNum([{}, {}, {}]));
